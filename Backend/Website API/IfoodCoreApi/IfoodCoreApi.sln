@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfoodCoreApi", "IfoodCoreApi.csproj", "{2BF843F5-29E9-4631-A807-038084ED85FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageQueue", "..\..\MessageQueue\MessageQueue.csproj", "{0797A7DC-1310-4856-B3EE-9BE69139F315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageQueue", "..\..\MessageQueue\MessageQueue.csproj", "{0797A7DC-1310-4856-B3EE-9BE69139F315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

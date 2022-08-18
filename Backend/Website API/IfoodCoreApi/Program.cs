@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//EntityFramework
 builder.Services.AddSingleton<DbContextOptions<AppDbContext>>();
 builder.Services.AddSingleton<AppDbContext>();
 
@@ -17,7 +19,6 @@ builder.Services.AddSingleton<BusinessCategoryRepository>();
 //Service's
 builder.Services.AddSingleton<RestaurantService>();
 builder.Services.AddSingleton<BusinessCategoryService>();
-
 
 builder.Services.AddControllers();
 
